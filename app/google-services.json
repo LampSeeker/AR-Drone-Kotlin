@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "160640485695",
+    "project_id": "ar-drone-kotlin-22a5b",
+    "storage_bucket": "ar-drone-kotlin-22a5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160640485695:android:1c5d3c77fcd0259a602b8a",
+        "android_client_info": {
+          "package_name": "com.portfolio.ardronekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160640485695-tcqu1bmq3l89oi21judh0fi5pug0bf7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.portfolio.ardronekotlin",
+            "certificate_hash": "8fa3331831398c9323513b56e7ede1dcf6da5a8c"
+          }
+        },
+        {
+          "client_id": "160640485695-4jggf90mmaj7amvndkhmh5gmalndfc7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsOAyGMWxrVfjqWffO4Qq1ZL570NsUtGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160640485695-4jggf90mmaj7amvndkhmh5gmalndfc7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
