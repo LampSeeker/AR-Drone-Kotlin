@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="드론 연결"
+        android:id="@+id/menu_drone_connect_statue"
+        android:icon="@drawable/menu_disconnect"
+        android:contentDescription="드론 연결"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="드론 객체 인식"
+        android:icon="@drawable/menu_find_unidentified"
+        android:visible="false"
+        android:id="@+id/favorite"
+        android:contentDescription="드론 객체 인식"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_account_settings"
+        android:title="계정 설정"
+        android:contentDescription="계정 설정"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_team_settings"
+        android:title="팀 설정"
+        android:contentDescription="팀 설정"
+        app:showAsAction="never" />
+
+</menu>

@@ -6,9 +6,25 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/mainScreen">
+    android:background="@color/white">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/main_menu"
+            android:background="@color/mainScreen"
+
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
 
 
@@ -23,15 +39,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@color/white"
 
             android:clickable="true"
             android:focusable="true"
             android:checkable="true"
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
-            >
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+        >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,6 +61,7 @@
                     app:srcCompat="@drawable/ic_drone_tello"
                     android:scaleType="fitCenter"
                     android:contentDescription="드론 컨트롤러"
+                    android:background="@color/colorLightGray"
                     />
 
                 <com.google.android.material.divider.MaterialDivider
@@ -89,10 +105,10 @@
 
             android:clickable="true"
             android:focusable="true"
-
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -149,10 +165,10 @@
 
             android:clickable="true"
             android:focusable="true"
-
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+
             >
 
             <LinearLayout
@@ -211,8 +227,9 @@
             android:clickable="true"
             android:focusable="true"
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -270,8 +287,9 @@
             android:clickable="true"
             android:focusable="true"
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+
             >
 
             <LinearLayout
@@ -331,8 +349,9 @@
             android:focusable="true"
 
             app:cardCornerRadius="15dp"
-            app:strokeColor="@color/black"
-            app:strokeWidth="1dp"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="5dp"
+
             >
             <LinearLayout
                 android:layout_width="match_parent"
